@@ -1,0 +1,46 @@
+.b {
+  position: absolute;
+  top: 2.19rem;
+  left: 2.44rem;
+  line-height: 90%;
+}
+.frameChild,
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  height: 5.25rem;
+}
+.wrapper {
+  background-color: var(--color-darkslateblue);
+  width: 20.56rem;
+}
+.frameChild {
+  width: 5.56rem;
+}
+.studentMaleIcon {
+  position: absolute;
+  top: 1.19rem;
+  left: 1.69rem;
+  width: 2.88rem;
+  height: 2.88rem;
+  object-fit: cover;
+}
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 15rem;
+  width: 5.56rem;
+  height: 5.25rem;
+}
+.frameParent {
+  position: relative;
+  width: 20.56rem;
+  height: 5.25rem;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

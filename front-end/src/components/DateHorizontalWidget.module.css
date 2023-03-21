@@ -1,0 +1,35 @@
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslateblue);
+  width: 20.56rem;
+  height: 5.25rem;
+}
+.b,
+.groupChild,
+.groupItem {
+  position: absolute;
+}
+.b {
+  top: 2.06rem;
+  left: 5.38rem;
+  line-height: 90%;
+}
+.groupItem {
+  top: 0;
+  left: 15rem;
+  border-radius: var(--br-base);
+  width: 5.56rem;
+  height: 5.25rem;
+}
+.rectangleParent {
+  position: relative;
+  width: 20.56rem;
+  height: 5.25rem;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

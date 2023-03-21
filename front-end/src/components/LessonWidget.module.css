@@ -1,0 +1,43 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20.5rem;
+  height: 5.75rem;
+  object-fit: cover;
+}
+.clockIcon {
+  position: relative;
+  width: 0.63rem;
+  height: 0.63rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.clockParent,
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.clockParent {
+  flex-direction: row;
+  font-size: var(--font-size-xs);
+}
+.parent {
+  position: absolute;
+  top: 1.13rem;
+  left: 2.16rem;
+  flex-direction: column;
+}
+.groupParent {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 20.5rem;
+  height: 5.75rem;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,7 @@
+.b {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}

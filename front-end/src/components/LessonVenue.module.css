@@ -1,0 +1,8 @@
+.div {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  font-weight: 600;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}

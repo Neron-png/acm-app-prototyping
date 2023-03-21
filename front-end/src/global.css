@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 0.88rem;
+  --font-size-xs: 0.75rem;
+  --font-size-5xs: 0.5rem;
+  --font-size-base: 1rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-xl: 1.25rem;
+
+  /* Colors */
+  --color-midnightblue: #061848;
+  --color-darkslateblue: #1c2e5e;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-mini: 0.94rem;
+  --gap-9xs: 0.25rem;
+  --gap-lgi: 1.19rem;
+  --gap-51xl: 4.38rem;
+
+  /* Paddings */
+  --padding-5xs: 0.5rem;
+  --padding-32xl: 3.19rem;
+
+  /* border radiuses */
+  --br-mid: 17px;
+  --br-base: 16px;
+}

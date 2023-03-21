@@ -1,0 +1,95 @@
+.frameChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 9.81rem;
+  height: 9.81rem;
+  mix-blend-mode: normal;
+}
+.div,
+.frameChild,
+.frameItem {
+  position: absolute;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 9.81rem;
+  height: 4.06rem;
+}
+.div {
+  top: 1.44rem;
+  left: 2.44rem;
+  line-height: 90%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 4.88rem;
+}
+.vectorParent {
+  position: absolute;
+  top: 5.75rem;
+  left: 0;
+  width: 9.81rem;
+  height: 4.06rem;
+}
+.frameGroup {
+  position: relative;
+  width: 9.81rem;
+  height: 9.81rem;
+  flex-shrink: 0;
+}
+.cutleryIcon {
+  position: absolute;
+  top: 1.94rem;
+  left: 3.06rem;
+  width: 3.69rem;
+  height: 3.69rem;
+  object-fit: cover;
+}
+.cutleryWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslateblue);
+  width: 9.81rem;
+  height: 9.81rem;
+  mix-blend-mode: normal;
+}
+.p {
+  margin: 0;
+}
+.txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div1 {
+  position: absolute;
+  top: 1.5rem;
+  left: 2.5rem;
+  line-height: 90%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 4.88rem;
+}
+.frameContainer {
+  position: relative;
+  width: 9.81rem;
+  height: 9.81rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-midnightblue);
+  font-family: var(--font-roboto);
+}

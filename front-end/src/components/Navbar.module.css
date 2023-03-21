@@ -1,0 +1,26 @@
+.navbarChild,
+.vectorIcon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.navbarChild {
+  width: 2.94rem;
+  height: 2.94rem;
+  cursor: pointer;
+}
+.navbar {
+  position: absolute;
+  bottom: 0.75rem;
+  left: calc(50% - 168px);
+  border-radius: var(--br-mid);
+  background-color: var(--color-darkslateblue);
+  width: 21.06rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-32xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
