@@ -5,11 +5,11 @@ import {
   useLocation,
 } from "react-router-dom";
 import MainPage from "./pages/MainPage";
+import Component from "./pages/Component";
+import Component1 from "./pages/Component1";
+import Component2 from "./pages/Component2";
 import Component3 from "./pages/Component3";
 import Component4 from "./pages/Component4";
-import Component2 from "./pages/Component2";
-import Component1 from "./pages/Component1";
-import Component from "./pages/Component";
 import { useEffect } from "react";
 
 function App() {
@@ -71,11 +71,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />
-      <Route path="/" element={<Component3 />} />
-      <Route path="/1" element={<Component4 />} />
+      <Route path="/" element={<Component />} />
+      <Route path="/1" element={<Component1 />} />
       <Route path="/2" element={<Component2 />} />
-      <Route path="/3" element={<Component1 />} />
-      <Route path="/4" element={<Component />} />
+      <Route path="/3" element={<Component3 />} />
+      <Route path="/4" element={<Component4 />} />
     </Routes>
   );
 }

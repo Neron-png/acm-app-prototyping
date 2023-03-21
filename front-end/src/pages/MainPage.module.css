@@ -1,0 +1,271 @@
+.frameChild {
+  position: absolute;
+  top: 7.81rem;
+  left: 13.81rem;
+  width: 45.1rem;
+  height: 18.97rem;
+}
+.heyUser {
+  margin: 0;
+}
+.heyUserHowContainer {
+  position: absolute;
+  top: 11.63rem;
+  left: 16.63rem;
+  display: flex;
+  align-items: center;
+  width: 16.88rem;
+  height: 4.19rem;
+}
+.vectorParent {
+  position: absolute;
+  top: -7.81rem;
+  left: -13.81rem;
+  width: 45.1rem;
+  height: 18.97rem;
+}
+.upcomingLesson {
+  position: absolute;
+  top: 0;
+  left: 2.19rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 7.25rem;
+  height: 1rem;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20.5rem;
+  height: 5.75rem;
+  object-fit: cover;
+}
+.b,
+.clockIcon {
+  position: relative;
+}
+.clockIcon {
+  width: 0.63rem;
+  height: 0.63rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.clockParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xs);
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  font-weight: 600;
+}
+.parent {
+  position: absolute;
+  top: 1.13rem;
+  left: 2.16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.groupParent {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 20.5rem;
+  height: 5.75rem;
+  font-size: var(--font-size-base);
+}
+.upcommingLessos {
+  position: relative;
+  width: 20.5rem;
+  height: 6.75rem;
+  flex-shrink: 0;
+}
+.frameInner,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 9.81rem;
+}
+.frameInner {
+  height: 9.81rem;
+  mix-blend-mode: normal;
+}
+.vectorIcon {
+  height: 4.06rem;
+}
+.div1 {
+  position: absolute;
+  top: 1.44rem;
+  left: 2.44rem;
+  line-height: 90%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 4.88rem;
+}
+.vectorGroup {
+  position: absolute;
+  top: 5.75rem;
+  left: 0;
+  width: 9.81rem;
+  height: 4.06rem;
+}
+.frameGroup {
+  position: relative;
+  width: 9.81rem;
+  height: 9.81rem;
+  flex-shrink: 0;
+}
+.cutleryIcon {
+  position: absolute;
+  top: 1.94rem;
+  left: 3.06rem;
+  width: 3.69rem;
+  height: 3.69rem;
+  object-fit: cover;
+}
+.cutleryWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslateblue);
+  width: 9.81rem;
+  height: 9.81rem;
+  mix-blend-mode: normal;
+}
+.txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 2.5rem;
+  line-height: 90%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 4.88rem;
+}
+.frameContainer {
+  position: relative;
+  width: 9.81rem;
+  height: 9.81rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.94rem;
+  font-size: var(--font-size-xs);
+  color: var(--color-midnightblue);
+}
+.b2 {
+  position: absolute;
+  top: 2.19rem;
+  left: 2.44rem;
+  line-height: 90%;
+}
+.frameChild2,
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  height: 5.25rem;
+}
+.wrapper {
+  background-color: var(--color-darkslateblue);
+  width: 20.56rem;
+}
+.frameChild2 {
+  width: 5.56rem;
+}
+.studentMaleIcon {
+  position: absolute;
+  top: 1.19rem;
+  left: 1.69rem;
+  width: 2.88rem;
+  height: 2.88rem;
+  object-fit: cover;
+}
+.vectorParent1 {
+  position: absolute;
+  top: 0;
+  left: 15rem;
+  width: 5.56rem;
+  height: 5.25rem;
+}
+.frameDiv {
+  position: relative;
+  width: 20.56rem;
+  height: 5.25rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+.upcommingLessosParent {
+  position: absolute;
+  top: 14.56rem;
+  left: calc(50% - 164px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.38rem;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+}
+.navbarChild,
+.vectorIcon1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.vectorIcon1 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.navbarChild {
+  width: 2.94rem;
+  height: 2.94rem;
+  cursor: pointer;
+}
+.navbar {
+  position: absolute;
+  bottom: 0.75rem;
+  left: calc(50% - 168px);
+  border-radius: var(--br-mid);
+  background-color: var(--color-darkslateblue);
+  width: 21.06rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-32xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainPage {
+  position: relative;
+  background-color: var(--color-midnightblue);
+  width: 100%;
+  height: 50rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

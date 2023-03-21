@@ -1,0 +1,90 @@
+.groupChild {
+  position: absolute;
+  top: 8.25rem;
+  left: 13.75rem;
+  width: 45.1rem;
+  height: 18.97rem;
+}
+.p {
+  margin: 0;
+}
+.b {
+  position: relative;
+  line-height: 108.5%;
+}
+.studentMaleIcon {
+  position: relative;
+  width: 3.69rem;
+  height: 3.69rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.parent {
+  top: 11.19rem;
+  left: 17.44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.13rem;
+}
+.b1,
+.parent,
+.vectorParent {
+  position: absolute;
+}
+.vectorParent {
+  top: -8.25rem;
+  left: -13.75rem;
+  width: 45.1rem;
+  height: 18.97rem;
+}
+.b1 {
+  top: 17.56rem;
+  left: 6.63rem;
+  font-size: 8rem;
+  line-height: 108.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.19rem;
+  height: 14.94rem;
+}
+.navbarChild,
+.vectorIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.navbarChild {
+  width: 2.94rem;
+  height: 2.94rem;
+  cursor: pointer;
+}
+.navbar {
+  position: absolute;
+  bottom: 0.75rem;
+  left: calc(50% - 169px);
+  border-radius: var(--br-mid);
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-32xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-51xl);
+}
+.div {
+  position: relative;
+  background-color: var(--color-midnightblue);
+  width: 100%;
+  height: 50rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

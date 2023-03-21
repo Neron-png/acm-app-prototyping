@@ -10,12 +10,12 @@ body {
   --font-poppins: Poppins;
 
   /* font sizes */
-  --font-size-sm: 0.88rem;
-  --font-size-xs: 0.75rem;
+  --font-size-xl: 1.25rem;
   --font-size-5xs: 0.5rem;
+  --font-size-xs: 0.75rem;
   --font-size-base: 1rem;
   --font-size-5xl: 1.5rem;
-  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
 
   /* Colors */
   --color-midnightblue: #061848;
@@ -23,16 +23,15 @@ body {
   --color-white: #fff;
 
   /* Gaps */
-  --gap-mini: 0.94rem;
-  --gap-9xs: 0.25rem;
-  --gap-lgi: 1.19rem;
   --gap-51xl: 4.38rem;
+  --gap-lgi: 1.19rem;
+  --gap-9xs: 0.25rem;
 
   /* Paddings */
   --padding-5xs: 0.5rem;
   --padding-32xl: 3.19rem;
 
   /* border radiuses */
-  --br-mid: 17px;
   --br-base: 16px;
+  --br-mid: 17px;
 }

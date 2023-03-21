@@ -1,0 +1,137 @@
+.groupChild {
+  position: absolute;
+  top: 8.25rem;
+  left: calc(50% - 140.82px);
+  width: 45.1rem;
+  height: 18.97rem;
+}
+.p {
+  margin: 0;
+}
+.b,
+.vectorIcon {
+  position: relative;
+}
+.vectorIcon {
+  width: 3.56rem;
+  height: 3.69rem;
+  flex-shrink: 0;
+}
+.parent {
+  position: absolute;
+  top: 10.88rem;
+  left: calc(50% - 79.82px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.vectorParent {
+  position: absolute;
+  top: -8.25rem;
+  left: calc(50% - 400px);
+  width: 45.1rem;
+  height: 18.97rem;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslateblue);
+  width: 20.56rem;
+  height: 5.25rem;
+}
+.b1,
+.groupInner,
+.groupItem {
+  position: absolute;
+}
+.b1 {
+  top: 2.06rem;
+  left: 5.38rem;
+  line-height: 90%;
+}
+.groupInner {
+  top: 0;
+  left: 15rem;
+  border-radius: var(--br-base);
+  width: 5.56rem;
+  height: 5.25rem;
+}
+.rectangleParent {
+  position: relative;
+  width: 20.56rem;
+  height: 5.25rem;
+  flex-shrink: 0;
+}
+.b2 {
+  left: 6.25rem;
+}
+.b2,
+.b3,
+.b4,
+.b5 {
+  position: absolute;
+  top: 2.06rem;
+  line-height: 90%;
+}
+.b3 {
+  left: 5.31rem;
+}
+.b4 {
+  left: 5.44rem;
+}
+.b5 {
+  left: 4.5rem;
+}
+.groupParent {
+  position: absolute;
+  top: 11.56rem;
+  left: calc(50% - 165px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.navbarChild,
+.vectorIcon1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.vectorIcon1 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.navbarChild {
+  width: 2.94rem;
+  height: 2.94rem;
+  cursor: pointer;
+}
+.navbar {
+  position: absolute;
+  bottom: 0.75rem;
+  left: calc(50% - 169px);
+  border-radius: var(--br-mid);
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-32xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-51xl);
+}
+.div {
+  position: relative;
+  background-color: var(--color-midnightblue);
+  width: 100%;
+  height: 50rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
